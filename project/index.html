@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yara - Portfólio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id="header">
+            <nav>
+                <ul id="nav">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#Projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li class="linkendin">
+                        <a href="https://www.linkedin.com/in/yara-mendes-600694303" target="_blank" aria-label="LinkedIn">
+                            <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </li>
+                    <li class="github">
+                        <a href="https://github.com/yamendes05" target="_blank" aria-label="GitHub">
+                            <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" alt="GitHub">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Sobre -->
+            <section id="sobre">
+                <div class="container">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <div class="about-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, debitis omnis pariatur quidem iusto incidunt repellendus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eaque molestias, asperiores sit nemo consequuntur animi!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Habilidades -->
+            <section id="habilidades">
+                <div class="container">
+                    <h2 class="section-title">Habilidades</h2>
+                    <div class="skills">
+                        <div>
+                            <h3>HTML5</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level html"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>CSS3</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level css"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>Power BI</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level js"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>Python</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level python"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projetos -->
+            <section id="Projetos">
+                <div class="container">
+                    <h2 class="section-title">Projetos</h2>
+                    <div>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800" alt="Site de Hamburgueria">
+                            <h3>Site de Hamburgueria</h3>
+                            <p>Desenvolvi uma aplicação web para um site de hamburgueria fictícia. O objetivo é permitir que os clientes conheçam os produtos e concluam pedidos.</p>
+                            <p>Tecnologias: HTML5, CSS3, JavaScript.</p>
+                            <p><a href="https://github.com/yamendes05/projeto_ham" target="_blank">Link do projeto</a></p>
+                        </div>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=800" alt="Conversor de Bases">
+                            <h3>Conversor de Bases</h3>
+                            <p>Criação de uma aplicação para conversão de bases numéricas sem funções prontas do Python.</p>
+                            <p>Tecnologias: Python.</p>
+                            <p><a href="https://github.com/yamendes05/Conversor" target="_blank">Link do projeto</a></p>
+                        </div>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=800" alt="Sistema Bancário">
+                            <h3>Sistema Bancário</h3>
+                            <p>Projeto de sistema bancário com operações de saque, depósito, extrato e sair.</p>
+                            <p>Tecnologias: Python.</p>
+                            <p><a href="https://github.com/yamendes05/sistema-bancario" target="_blank">Link do projeto</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contato -->
+            <section id="contato">
+                <div class="container">
+                    <h2 class="section-title">Contato</h2>
+                    <div class="contact-form">
+                        <form action="https://formsubmit.co/yara051205@gmail.com" method="POST">
+                            <!-- Redirect after submission -->
+                            <input type="hidden" name="_next" value="https://yamendes05.github.io/portfolio">
+                            <!-- Disable captcha -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <!-- Template subject -->
+                            <input type="hidden" name="_subject" value="Novo contato do Portfólio!">
+                            <!-- Prevent spam -->
+                            <input type="hidden" name="_template" value="table">
+                            
+                            <div class="form-group">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Yara Mendes. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
